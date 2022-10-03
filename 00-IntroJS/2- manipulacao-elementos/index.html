@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/manipulacao.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulacao Elementos</title>
+</head>
+<body>
+    <div>
+        <button type="button" onclick="clicou()">Clique Aqui</button>
+        <button type="button" onclick="clicou2()">Clique Aqui</button>
+        <button type="button" onclick="clicou3()">Clique Aqui</button>
+        <h3 id="agradecer"></h3>
+        <p id="agradecimento" onclick="redirecionar()">Ola</p>
+        <p id="mouseMove" onmouseover="trocar(this)" onmouseout="voltar(this)">UAAAAL</p> <!--Quando passar o mouse em cima, ele reconhecera*/ -->
+        <!--  ON MOUSE OVER - reconhece o mouse sem clicks  MOUSE OUT - retorna a frase original depois de passar o mouse -->
+    </div>
+    <div>
+        <p id="mouseMove" onmouseover="trocar(this)" onmouseout="voltar(this)">UAAAAL</p> <!--Quando passar o mouse em cima, ele reconhecera*/ -->
+        <p id="mouseMove" onmouseover="trocar(this)" onmouseout="voltar(this)">UAAAAL</p> <!--Quando passar o mouse em cima, ele reconhecera*/ -->
+    </div>
+</body>
+</html>
